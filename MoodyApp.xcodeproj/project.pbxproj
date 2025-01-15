@@ -55,9 +55,22 @@
 		AA2EE0DB2D3785D900AA3739 /* MoodyApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoodyApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA2EE1062D378A0400AA3739 /* Exceptions for "MoodyApp Watch App" folder in "MoodyApp Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"MoodyApp-Watch-App-Info.plist",
+			);
+			target = AA2EE0BE2D3785D600AA3739 /* MoodyApp Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA2EE0C32D3785D600AA3739 /* MoodyApp Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA2EE1062D378A0400AA3739 /* Exceptions for "MoodyApp Watch App" folder in "MoodyApp Watch App" target */,
+			);
 			path = "MoodyApp Watch App";
 			sourceTree = "<group>";
 		};
@@ -450,13 +463,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MoodyApp Watch App/MoodyApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoodyApp Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = TUM2AVRA9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MoodyApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = MoodyApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your heart rate data to analyze your mood and provide personalized recommendations";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to update health data to track your mood changes over time";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,13 +497,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MoodyApp Watch App/MoodyApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoodyApp Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = TUM2AVRA9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MoodyApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = MoodyApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your heart rate data to analyze your mood and provide personalized recommendations";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to update health data to track your mood changes over time";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (

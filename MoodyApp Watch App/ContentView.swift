@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import HealthKit
 
 struct ContentView: View {
+    @StateObject private var moodManager = MoodManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            MoodView()
+                .environmentObject(moodManager)
+            AdviceView()
+                .environmentObject(moodManager)
+            HistoryView()
+                .environmentObject(moodManager)
         }
-        .padding()
+        .tabViewStyle(PageTabViewStyle())
     }
 }
 

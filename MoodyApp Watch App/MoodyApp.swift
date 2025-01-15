@@ -1,14 +1,16 @@
 //
-//  MoodyAppApp.swift
-//  MoodyApp Watch App
+//  MoodyApp.swift
+//  MoodyApp
 //
 //  Created by malva on 14/01/25.
 //
 
 import SwiftUI
+import HealthKit
+import Foundation
 
 @main
-struct MoodyApp_Watch_AppApp: App {
+struct MoodyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
