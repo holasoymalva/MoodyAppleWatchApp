@@ -2,6 +2,9 @@
 
 MoodyApp is an innovative Apple Watch application that helps users track their mood throughout the day by analyzing heart rate data. The app provides personalized recommendations based on the detected mood patterns.
 
+<img width="245" alt="image" src="https://github.com/user-attachments/assets/6bb27321-2461-4dde-877c-e0f7cb58fe62" />
+
+
 ## Features
 
 - 🫀 Real-time heart rate monitoring
